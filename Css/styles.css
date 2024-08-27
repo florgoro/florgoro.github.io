@@ -1,0 +1,118 @@
+body {
+    background: radial-gradient(circle, rgba(255, 199, 179, 0.692), #f79f7fc5);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 0.18rem 0.18rem #f79f7f;
+    margin-top: 3rem;
+}
+h2 {
+    text-align: center;
+    text-shadow: 0.125rem 0.125rem #f79f7f;
+}
+h3 {
+    text-align: center;
+    text-shadow: 0.125rem 0.125rem #f79f7f;
+}
+h4 {
+    font-size: 1.2rem;
+    margin-left: 40rem;
+    margin-top: 50rem; 
+    text-shadow: 0.125rem 0.125rem  #f79f7f;
+}
+p {
+    font-size: 1.125rem;
+}
+#copy {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 0.25rem;
+    color: #646363;
+}
+.container {
+    color: #646363;
+}
+.cont p#from {
+    padding-left: 1rem;
+}
+.cont {
+    padding-left: 35rem;
+}
+.polaroid {
+    position: relative;
+    text-align: left;
+    float: left;
+    margin-left: 3rem;
+    box-shadow: 0.12rem 0.12rem #f8c4d3;
+}
+.hi {
+    position: absolute;
+    top: 0.125rem;
+    left: 0.125rem;
+    color: #646363;
+    font-size: 9rem;
+    text-shadow: 0.25rem 0.25rem #f8c4d3;
+    writing-mode: vertical-lr;
+}
+.indi {
+    font-size: 1.2rem;
+    text-align: center;
+    gap: 1.8rem;
+}
+.socials {
+    color: #646363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+.fa-brands:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f79f7f;
+    color: #fdfbfb;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1000; 
+}
+.scroll-to-top:hover {
+    background-color: #646363;
+}
+.show {
+    opacity: 1;
+}
+.presentation {
+    padding: 2rem 4rem 4rem 44rem;
+
+}
+.myself {
+    max-width: 20rem;
+    max-height: 30rem;
+    border: 0.5rem groove #f79f7f;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+/*.buttercup {
+    max-width: 20rem;
+    max-height: 30rem;
+    border: 0.5rem groove #f79f7f;
+    margin-top: 20rem;
+    float: right;
+}
+    
