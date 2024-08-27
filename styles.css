@@ -1,58 +1,67 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #577734;
     font-family: 'Times New Roman', Times, serif;
 }
 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 4.37rem;
     color: white;
-    text-shadow: 3px 3px #304624;
+    text-shadow: 0.1875rem 0.1875rem #304624;
 }
 h2 {
     color: white;
-    margin-left: 500px;
-    margin-top: 50px;
-    text-shadow: 2px 2px #304624;
+    margin-left: 31.25rem;
+    margin-top: 3.125rem;
+    text-shadow: 0.125rem 0.125rem #304624;
 }
 h3 {
     color:white;
     margin-left: 500px;
-    text-shadow: 2px 2px #304624;
+    text-shadow: 0.125rem 0.125rem #304624;
 }
 h4 {
     font-size: larger;
     color:white;
-    margin-left: 500px;
-    margin-top: 290px;
-    text-shadow: 2px 2px #304624;
+    margin-left: 34rem;
+    margin-top: 18.125rem; 
+    text-shadow: 0.125rem 0.125rem  #304624;
 }
 p {
     color: white;
-    margin-left: 460px;
-    font-size: large;
+    margin-left: 28.75rem;
+    font-size: 1.125rem;
 }
 img {
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 43.75rem;
+    max-height: 43.75rem;
 }
+
+.contacto {
+    margin-left: 4rem;
+}
+
 .polaroid {
     position: relative;
     text-align: left;
     float: left;
-    margin-left: 50px;
-    box-shadow: 2px 2px white;
+    margin-left: 3.125rem;
+    box-shadow: 0.125rem 0.125rem white;
 }
 .hi {
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 0.125rem;
+    left: 0.125rem;
     color: white;
-    font-size: 150px;
-    text-shadow: 4px 4px #304624;
+    font-size: 9.375rem;
+    text-shadow: 0.25rem 0.25rem  #304624;
     writing-mode: vertical-lr;
 }
 .indi {
-    font-size: large;
+    font-size: 1.125rem;
     color: white;
     text-align: center;
 }
@@ -61,9 +70,49 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 .fa-brands:hover {
     transform: scale(1.5);
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 9vw;
+        margin-top: 5rem;
+    }
+
+    h2 {
+        font-size: 7vw;
+        margin-left: 4rem; 
+        margin-top: 2rem;
+    }
+
+    h3 {
+        font-size: 7vw;
+        margin-left: 4rem; 
+    }
+
+    h4 {
+        margin-left: 8rem;
+    }
+
+    p {
+        margin-left: 4rem; 
+        font-size: 4vw; 
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hi {
+        font-size: 5rem;
+    }
+
+    .contacto {
+        margin-left: 1rem;
+    }
 }
