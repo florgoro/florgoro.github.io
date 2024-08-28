@@ -1,0 +1,100 @@
+body {
+    background-color: #577734;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.37rem;
+    color: white;
+    text-shadow: 0.1875rem 0.1875rem #304624;
+}
+
+.container h2,
+.container h3,
+h4 {
+    color: white;
+    text-shadow: 0.125rem 0.125rem #304624;
+    text-align: center;
+}
+
+.text-container {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+h4 {
+    font-size: larger;
+    margin-top: 2rem; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.contacto {
+    text-align: center; 
+}
+
+.contacto p {
+    color: white;
+}
+
+.polaroid {
+    box-shadow: 0.125rem 0.125rem white;
+    margin: 0.5rem; 
+}
+
+.indi {
+    font-size: 1.125rem;
+    color: white;
+    text-align: center;
+}
+
+.socials {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.fa-brands:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 8vw;
+        margin-top: 2rem; 
+    }
+
+    .text-container {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .polaroid {
+        margin: 0.5rem;
+    }
+
+    .hi {
+        font-size: 5rem;
+    }
+
+    .contacto {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        margin: 1rem; 
+    }
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>WELCOME</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6768d276bf.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,33 +16,36 @@
         </div>
     <hr>
     <main>
-        <div class="polaroid">
-            <img src="Img/img01.jpg">
-            <div class="hi">Hi!</div>
+        <div class="container">
+            <div class="polaroid">
+                <img src="Img/img02.jpg">
+            </div>
+            <div class="text-container">
+                <h2 id="welcome">Welcome to my page!</h2>
+                <blockquote>
+                    <p>My name is Florencia, I'm a Web Development student currently studying in JaP. I'm fully 
+                        interested in this field and anything that's got to do with the digital world. I've studied 
+                        Digital Marketing Analyst and I have some experience as a Community Manager as well.
+                    </p>
+                    <p>
+                        I've also studied Film, I don't know yet how to relate the two but I think I'll find out sooner or later.<br>
+                        Also, a note, I love Buttercup and most people in my life associte me with her, so that's why I decided to use her. 
+                    </p>    
+                </blockquote>
+                <h3>Glance at the Future</h3>
+                <blockquote>
+                    <p>
+                        I'm excited to learn more about programming and hope to get a job based on it. I look forward to
+                        this course and I hope at the end of the year I'll be able to leave this page resembling somewhat 
+                        like a pro.
+                    </p>
+                </blockquote>
+            </div>
         </div>
-        <h2 id="welcome">Welcome to my page!</h2>
-        <blockquote>
-            <p id="about">My name is Florencia, I'm a Web Development student currently studying in JaP. I'm fully 
-                interested in this field and anything that's got to do with the digital world. I've studied 
-                Digital Marketing Analyst and I have some experience as a Community Manager as well.
-            </p>
-            <p>
-                I've also studied Film, I don't know yet how to relate the two but I think I'll find out sooner or later.<br>
-                Also, a note, I love Buttercup and most people in my life associte me with her, so that's why I decided to use her. 
-            </p>    
-        </blockquote>
-        <h3>Glance at the Future</h3>
-        <blockquote>
-            <p>
-                I'm excited to learn more about programming and hope to get a job based on it. I look forward to
-                this course and I hope at the end of the year I'll be able to leave this page resembling somewhat 
-                like a pro.
-            </p>
-        </blockquote>
         <h4 id="contact">Contact Me</h4>
         <form action="contact" method="post">
             <div class="contacto">
-                <p>From:  <input type="text" name="from" required></p>
+                <p id="from">From:  <input type="text" name="from" required></p>
                 <p>Subject: <input type="text" name="subject" required></p>
                 <p>Message: <textarea name="message" rows="4" cols="20"></textarea></p>
                 <p><input type="submit" value="Send"></p>
