@@ -72,6 +72,42 @@ img {
     cursor: pointer;
 }
 
+#incoming-content {
+    text-align: center;
+    margin-top: 10%;
+    font-size: larger;
+    text-shadow: 0.125rem 0.125rem #304624;
+}
+
+.loader-container {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.loader-container .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border: solid 4px transparent;
+    border-top-color: greenyellow;
+    border-left-color: greenyellow;
+    border-radius: 50%;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+    0%{
+        transform: translate(-50%, 50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, 50%) rotate(360deg);
+    }
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 8vw;
