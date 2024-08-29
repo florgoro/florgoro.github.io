@@ -1,6 +1,7 @@
 body {
     background: radial-gradient(circle, rgba(255, 199, 179, 0.692), #f79f7fc5);
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.125rem;
 }
 h1 {
     text-align: center;
@@ -8,22 +9,16 @@ h1 {
     text-shadow: 0.18rem 0.18rem #f79f7f;
     margin-top: 3rem;
 }
-h2 {
+.presentation h2, h3 {
     text-align: center;
     text-shadow: 0.125rem 0.125rem #f79f7f;
 }
-h3 {
-    text-align: center;
-    text-shadow: 0.125rem 0.125rem #f79f7f;
-}
-h4 {
+#contact {
     font-size: 1.2rem;
     margin-left: 40rem;
     margin-top: 50rem; 
     text-shadow: 0.125rem 0.125rem  #f79f7f;
-}
-p {
-    font-size: 1.125rem;
+    font-weight: bold;
 }
 #copy {
     font-size: 1rem;
@@ -34,11 +29,11 @@ p {
 .container {
     color: #646363;
 }
-.cont p#from {
-    padding-left: 1rem;
-}
 .cont {
     padding-left: 35rem;
+}
+#from {
+    padding-left: 1rem;
 }
 .polaroid {
     position: relative;
@@ -47,16 +42,7 @@ p {
     margin-left: 3rem;
     box-shadow: 0.12rem 0.12rem #f8c4d3;
 }
-.hi {
-    position: absolute;
-    top: 0.125rem;
-    left: 0.125rem;
-    color: #646363;
-    font-size: 9rem;
-    text-shadow: 0.25rem 0.25rem #f8c4d3;
-    writing-mode: vertical-lr;
-}
-.indi {
+.index {
     font-size: 1.2rem;
     text-align: center;
     gap: 1.8rem;
@@ -108,11 +94,3 @@ p {
     margin-top: 2rem;
     margin-left: 10rem;
 }
-/*.buttercup {
-    max-width: 20rem;
-    max-height: 30rem;
-    border: 0.5rem groove #f79f7f;
-    margin-top: 20rem;
-    float: right;
-}
-    
