@@ -1,0 +1,163 @@
+/* General */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #7a967c;
+  color: #444;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Titles */
+h1, h2, h3, h4 {
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+/* Sections */
+section {
+  padding: 3rem 1rem;
+}
+
+/* Header */
+header {
+  background-color: #f5f4f4;
+}
+
+
+/* Img sun */
+.header-bg {
+  background-image: url('../Img/solecito-2.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 10rem; 
+}
+
+.caseBtn {
+  display: inline-block;
+  background-color:#273f29;
+  color: #eeeedc; 
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(70, 70, 70, 0.1);
+}
+
+.caseBtn:hover {
+  background-color: #415543;
+  transform: scale(1.05);
+}
+
+.about,
+.projects,
+.contact {
+  background-color: #ffffff; 
+  border-top: 3px dashed #415543;
+  border-bottom: 3px dashed #415543;
+}
+
+/* Photo */
+.about img {
+  max-width: 200px;
+  border: 3px solid #415543;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0px #415543;
+}
+
+/* Projects */
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.project img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.project-description {
+  max-width: 400px;
+}
+
+ /* Btn up */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #273f29;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1000; 
+}
+.scroll-to-top:hover {
+    background-color: #273f29;
+}
+.show {
+    opacity: 1;
+}
+
+#copy {
+  font-size: 1rem;
+}
+
+/* Sociales */
+#socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#socials a {
+  color: #444;
+  transition: transform 0.3s, color 0.3s;
+}
+
+#socials a:hover {
+  transform: scale(1.2);
+  color: #415543;
+}
+
+/* Footer */
+footer {
+  background-color: #f5f4f4; /* Gris cálido piedra */
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Img daisy */
+.footer-bg {
+  background-image: url('../Img/daisy-2.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 8rem;
+}
